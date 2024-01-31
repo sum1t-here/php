@@ -19,17 +19,17 @@
     
     <?php
     // scalar types
-    $string = "Hello world";
-    $int = 12345;
-    $float = 4.45;
-    $bool = false;
+    $string = "Hello world"; // def = ""
+    $int = 12345; // def = 0
+    $float = 4.45; // def = 0
+    $bool = false; // def = false
 
     // Array type
     $array = array("Ironman", "Hulk", "Ct.America");
-    $name = ["Ironman", "Hulk", "Ct.America"];
+    $name = ["Ironman", "Hulk", "Ct.America"]; // def = []
 
     // object type
-    $object = new Car();
+    $object = new Car(); // def = null
     ?>
 </body>
 </html>
